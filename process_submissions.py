@@ -30,15 +30,15 @@ import fitz
 
 # Future work - get the exam code from a GUI or from the command line
 
-examCode = '202202-104293-5'
+examCode = '202202-104016-1'
 
 # The locations of the font files being used for the replacements are
 # correct for Ubuntu 22.04.
 
 fontReplacements = {
-        'NotoSans-Bold':    '/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf',
-        'NotoSans-Italic':  '/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf',
-        'NotoSans-Regular': '/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf'
+        'NotoSans-Bold':    'D:\tani\LiberationFonts\LiberationSans-Bold.ttf',
+        'NotoSans-Italic':  'D:\tani\LiberationFonts\LiberationSans-Italic.ttf',
+        'NotoSans-Regular': 'D:\tani\LiberationFonts\LiberationSans-Regular.ttf'
         }
 
 try:

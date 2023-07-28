@@ -23,12 +23,12 @@ for dir1name in os.listdir(topdir):
             d2 = os.path.join(d1, dir2name)
             if os.path.isdir(d2):
                 for fname in os.listdir(d2):
-                    if fname == 'Color.pdf':
+                    if fname == 'Color-orig.pdf':
                         oldname = os.path.join(d2, fname)
                         if os.path.isfile(oldname):
                             print(oldname)
-                            newfname = '{id}-{examcode}.pdf'.format(id=dir1name, examcode=dir2name)
-                            newname = os.path.join(outputdir,newfname)
+                            newfname = 'Color.pdf'
+                            newname = os.path.join(d2,newfname)
                             try:
                                 os.rename(oldname, newname)
                             except:
